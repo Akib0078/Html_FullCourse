@@ -1,0 +1,59 @@
+<!DOCTYPE/>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title> Html table2 </title>
+  
+   <style>
+      table{
+	  width:400px;
+	  height:200px;
+	  border:1px solid black;
+	  }
+	  
+	  td,th{
+	  border:2px solid black;
+	  }
+	   tr{
+	   text-align: center;
+	   }
+     </style>
+  </head>
+  <body>
+    <table>
+	  <caption> <h2>Student details</h2> </caption>
+	  
+	  <thead>
+	    <tr>
+		  <th> ID </h>
+		  <th> NAME </h>
+		  <th colspan="2"> GPA </h>    <! colspan value = how many colums connected>
+		  </tr>
+		</thead>
+
+        <tbody>
+		   <tr>
+		     <td>101</td>
+			  <td>Akib</td>
+			   <td rowspan="2">3.5</td>
+			   <td>3.5</td>
+            </tr>
+			
+			<tr>
+		     <td>101</td>
+			  <td>Alvia</td>
+			   <td>3.8</td>
+            </tr>
+			
+			<tr>
+		     <td>101</td>
+			  <td>Sumit</td>
+			   <td>3.6</td>
+			   <td>3.5</td>
+            </tr>
+        </tbody>
+</table>		
+</body>
+
+
+</html>
